@@ -27,11 +27,24 @@ img {
   max-width: 100%;
 }
 
+.flow > * + * {
+  margin-top: 1rem;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 2em 1em;
+}
+
 .header__title {
   font-family: 'PT Serif', serif;
   font-weight: 700;
   font-size: 2.25rem;
   letter-spacing: -0.045em;
+}
+
+.banner {
+  margin-top: 2rem;
 }
 
 .banner__title {
@@ -43,6 +56,10 @@ img {
 .banner__description {
   font-weight: 400;
   font-size: 0.875rem;
+}
+
+.main {
+  margin: 4rem 0;
 }
 
 .person__title {
