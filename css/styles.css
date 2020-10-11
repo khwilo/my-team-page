@@ -36,6 +36,13 @@ img {
   padding: 2em 1em;
 }
 
+@media (min-width: 35em) {
+  .wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 .header__title {
   font-family: 'PT Serif', serif;
   font-weight: 700;
