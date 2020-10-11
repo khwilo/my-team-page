@@ -88,7 +88,7 @@ img {
   .team {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
+    gap: 2rem;
   }
 }
 
@@ -99,7 +99,6 @@ img {
 }
 
 .person {
-  width: 50%;
   position: relative;
 }
 
@@ -117,14 +116,20 @@ img {
   }
 }
 
+.person__img {
+  width: 90%;
+}
+
 .person__title {
   font-family: 'PT Serif', serif;
   font-size: 0.625rem;
   text-transform: uppercase;
-  position: absolute;
-  top: 50px;
-  right: -80px;
   transform: rotate(90deg);
+  transform-origin: left top;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  white-space: nowrap;
 }
 
 .person__name {
