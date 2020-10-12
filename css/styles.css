@@ -93,8 +93,10 @@ img {
 }
 
 @media (min-width: 35em) {
-  .team {
-    grid-template-columns: repeat(3, 1fr);
+  @supports (display: grid) {
+    .team {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 }
 
